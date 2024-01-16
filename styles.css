@@ -1,0 +1,104 @@
+body {
+    background-image: -webkit-linear-gradient(top, #ffa806b7, #ffffff); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(top, #ffa806b7, #ffffff); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(top, #ffa806b7, #ffffff); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(top, #ffa806b7, #ffffff); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to bottom, #ffa806b7, #ffffff); /* Standard syntax; must be last */
+}
+
+body {
+    font-family: cursive, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff94;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #a890ffb9;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* css/style.css */
+main a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.galeria {
+    display: flex;
+    width: 1300px;
+    height: 600px;
+}
+
+.galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+
+.galeria img:hover {
+    width: 1000px;
+    opacity: 1;
+    filter: brightness(130%);
+}
+
+.Cupones-btn {
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.Cupones-btn:hover {
+    transition: all 0.5s ease-in-out;
+    animation: bounce 1.6s infinite;
+}
+
+button {
+    background-color: #ffa8069d;
+    color: #080808;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px #dab03b;
+}
+
+button:hover {
+    background-color: #facd7985;
+}
